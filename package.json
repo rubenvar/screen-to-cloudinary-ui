@@ -4,7 +4,7 @@
   "description": "A UI for Screen to Cloudinary",
   "scripts": {
     "dev": "parcel serve src/index.html --open",
-    "build:frontend": "parcel build src/index.html--dist-dir build --no-source-maps"
+    "build": "parcel build src/index.html --dist-dir build --no-source-maps"
   },
   "devDependencies": {
     "@parcel/transformer-stylus": "^2.0.0-rc.0",
